@@ -5463,10 +5463,10 @@ This tech is <em>repeatable</em> and can be researched multiple times.
 35,"Battery is being drained by <em><percent(value,battery_max)> per hour</em>",
 37,Battery is <em>on standby</em>,
 8456,Depleted Battery!,
-7322,The Rover will be salvaged in <em><countdown></em> sec.,
-7323,Low battery - Drones will not be recharged.,
-7324,Low battery,
-7325,Empty battery,
+7322,The Rover will be salvaged in <em><countdown></em> sec.,漂泊者將在<em><countdown></em>秒內被搶修。
+7323,Low battery - Drones will not be recharged.,電量不足，無人機将無法充電。
+7324,Low battery,電量不足
+7325,Empty battery,電池沒電
 7601,Battery,電池
 7602,"Vehicles can recharge their batteries from active Power grids. Vehicles are also able to recharge each other, equalizing the Power in their batteries.<newline><newline>Power<right><percent(BatteryPerc)><newline><left><battery_ui_str>",
 40,Recharge,充電
@@ -10334,22 +10334,22 @@ Current status: Exports are <em>forbidden</em>.",
 7857,Rare Traits,
 779865575637,<RareTraits>,
 946079411041,<UISectionAirGridRollover>,
-536,Oxygen grid,
-541,Hourly production<right><air(current_production)>,
-327,Total demand<right><air(consumption)>,
-328,Stored Oxygen<right><air(current_storage)>,
+536,Oxygen grid,氧氣網格
+541,Hourly production<right><air(current_production)>,每小時生產<right><air(current_production)>
+327,Total demand<right><air(consumption)>,需求總量<right><air(consumption)>
+328,Stored Oxygen<right><air(current_storage)>,儲氧量<right><air(current_storage)>
 145812907055,<UISectionAirProductionRollover>,
-486,Hourly production<right><air(AirProduction)>,
-520,Oxygen storage parameters and status. Oxygen is consumed only when demanded.,
-186451833281,Oxygen Storage,
-521,Stored Oxygen<right><air(StoredAir)>,
-522,Capacity<right><air(air_capacity)>,
-7783,Max output<right><air(max_air_discharge)>,
+486,Hourly production<right><air(AirProduction)>,每小時生產<right><air(AirProduction)>
+520,Oxygen storage parameters and status. Oxygen is consumed only when demanded.,儲氧參數和狀態。只有需要時才會消耗氧氣。
+186451833281,Oxygen Storage,儲氧量
+521,Stored Oxygen<right><air(StoredAir)>,儲存氧<right><air(StoredAir)>
+522,Capacity<right><air(air_capacity)>,容量
+7783,Max output<right><air(max_air_discharge)>,最大輸出<right><air(max_air_discharge)>
 331402867293,<CheatsRollover>,
-27,Cheats,
-8543,Buildings in cold environemnt will freeze if left without power.<newline><newline>Freezing progress<right><percent(FreezeProgress)><newline><left>Status<right><FreezeStatus>,
-626,All resources have to be delivered to the site. Construction is performed by Drones.,
-394,Construction progress,
+27,Cheats,金手指
+8543,Buildings in cold environemnt will freeze if left without power.<newline><newline>Freezing progress<right><percent(FreezeProgress)><newline><left>Status<right><FreezeStatus>,在严寒的環境，如果沒有提供電力的建築物將凍結。<newline><newline>凍結進度<right><percent(FreezeProgress)><newline><left>現時<right><FreezeStatus>
+626,All resources have to be delivered to the site. Construction is performed by Drones.,所有資源必須存放到基地。將會由無人機執行建造各種建築物。
+394,Construction progress,施工進度
 796206581420,<IPStatus>,
 792334033908,<UISectionConsumptionRollover>,
 425713963756,Consumption,
