@@ -5472,19 +5472,19 @@ This tech is <em>repeatable</em> and can be researched multiple times.
 40,Recharge,充電
 41,Select a power cable or another vehicle to recharge the battery.,選擇電線或其它車輛為電池充電。
 42,Cancel recharge.,取消充電
-50,Status and current task of this vehicle.,
-25,Anomaly Scanning,
-52,Progress<right><percent(ScanAnomalyProgress)>,
-53,Malfunction,
-54,This vehicle has malfunctioned. It has to be repaired by Drones.,
-55,Analyzing an Anomaly,
-56,On a transport route,
-58,<red>This unit has been destroyed. Salvage for materials.<red>,
-59,Disembarking,
-60,Unloading cargo at target coordinates,
-61,Transfering power between vehicles,
-62,Moving to avoid obstruction,
-64,Loading resources at target coordinates,
+50,Status and current task of this vehicle.,該車輛現狀和當前任務。
+25,Anomaly Scanning,异常掃描
+52,Progress<right><percent(ScanAnomalyProgress)>,推進<right><percent(ScanAnomalyProgress)>
+53,Malfunction,故障
+54,This vehicle has malfunctioned. It has to be repaired by Drones.,車輛發生故障。需要派遣無人機進行維修。
+55,Analyzing an Anomaly,分析异常
+56,On a transport route,在運輸路線上
+58,<red>This unit has been destroyed. Salvage for materials.<red>,<red>该组织已经被摧毁。请求救援物资<red>
+59,Disembarking,離艙
+60,Unloading cargo at target coordinates,目標坐標下卸載貨物
+61,Transfering power between vehicles,运输能源传送
+62,Moving to avoid obstruction,移動以避免阻塞
+64,Loading resources at target coordinates,在目標座標上装載資源
 7610,Waiting for repairs,
 8028,Undergoing repairs,
 66,Out of power,
