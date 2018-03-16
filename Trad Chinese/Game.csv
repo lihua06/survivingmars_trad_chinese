@@ -4199,29 +4199,33 @@ We, on the other hand, as a symbol of what humanity can achieve when working tog
 8475,Our scientists have devised a complex plan to discover the cure for the Wildfire infection. It would be a monumental effort but we must prioritize the research to be able to find a solution to the growing crisis.,
 8550,Constructing new Medical buildings which gather data about the infection could speed up the progress towards discovering the Wildfire Cure.,
 8293,Wildfire: The Cure,
-8294,Tremendous news! The cure for the Wildfire disease has been discovered!,
+8294,Tremendous news! The cure for the Wildfire disease has been discovered!,好消息！研究人員已經發現治療野火病的方法!
 8295,"A genetically modified strain of the Martian Wildfire interfaces with the RNA of the virus and effectively stops it from coagulating the blood plasma of the host. The intake of only a small amount of the cure is enough to halt the development of the disease, even though it wouldn't repair the tissue damage suffered so far.
 
 The scientists experimented with multiple growth mediums and discovered that the most effective way to proliferate the medicine is by introducing it in mold cells growing on potatoes. This is great news because we can provide enough biomass for the modified mold to grow and if we do it quickly, we can still stand a chance to end the suffering on Earth.
 
 <effect>The Curetato Crop has become available. Harvesting it will produce Cure for the Wildfire infection, which in turn has to be exported to Earth to end the crisis.
 
-<effect> Colonists with the Infected trait will be cured permanently after their first visit in a Medical Building.",
-8296,Start the process immediately. Time is of the essence!,
+<effect> Colonists with the Infected trait will be cured permanently after their first visit in a Medical Building.","科學家們经过不断的努力实验，终于在薯仔叶上提取到霉菌細胞。它将效地阻止病毒凝固宿主的血漿。 宿主只攝入少量的疫苗就足以阻止疾病的蔓延。虽然无法完全治愈宿主但可以修复宿主被损坏的组织。好消息的是我们可以提供足够的薯仔叶来培育这种并改良的霉菌細胞。现在我们要马上开始种植它们。
+
+<effect> 它们已经成熟。收割它们生产出治愈野火病疫苗并运输回地球。
+
+<effect> 及时的医疗大楼的居民，将会被完全治愈。"
+8296,Start the process immediately. Time is of the essence!,立即啟動。時間是最宝贵的!
 8476,"The Cure for Wildfire has been discovered! Conveniently spliced in modified mold cells, the cure can be grown on plant biomass. We have to produce it en masse!",
-5614,Anomaly Analyzed,
+5614,Anomaly Analyzed,异常分析
 8297,The faint distress signal led us to the burial site of a small satellite. It had fallen deep under the red sands and could have been there for an eternity.,
 8298,"It’s strange that we couldn't find any information for the flight in the international records. No black box nor signatures can be seen except for a discolored logo, ‘Scoop XI’. Upon opening the hull we found all of the internal systems corroded away by time, with only a small capsule remaining. The biohazard sign on it only served to stir our curiosity, but a closer examination discovered that it has been breached. We assume that the biological material inside has been destroyed. We have ordered the Rover to store the salvage for further analysis.",
 8299,A curious find. Let’s hope the future will bring more answers than questions on that matter.,
-8300,Wildfire: Contamination!,
+8300,Wildfire: Contamination!,野火病毒：感染!
 8301,We've just lost one of our scientific facilities in a disturbing set of events. We’re still investigating the cause of the disaster but there are clues which lead to unsettling conclusions.,
 8302,"The security log shows that everything started with a malfunction in the storage unit where the analysis samples were stored. After that the internal systems of the laboratory began to rapidly fail one after another. Suspiciously, the damaged systems were all made of plastic and organic polymers, all corroded away within mere seconds.
 
 Our operatives are puzzled with the cause of the chain reaction but the Chief Engineer has pointed out a fact which eluded our attention until now – the remains of the Scoop XI satellite were held in the storage unit of this facility. We didn't take any chances and ordered an emergency decontamination of the building. Let’s hope that whatever was in there has been destroyed.
 
 <effect>A Laboratory has mysteriously malfunctioned.",
-8303,Monitor the colony and report any related cases.,
-8304,Wildfire: Mars Aflame,
+8303,Monitor the colony and report any related cases.,監測殖民地並報告任何相關病例。
+8304,Wildfire: Mars Aflame,野火病毒：火星燃烧
 8305,We have to face it – we cannot stop the infection. No matter what we do it keeps spreading across the colony like a wildfire. Hence the name we've given it.,
 8306,"All attempts to isolate the sources have failed. We can assume that the virus is traveling all across our life support and maintenance circuits. The only way to stop it is to turn off all systems, but this would be a death sentence for the colonists. We've ran out of options.",
 8307,"Don't despair, we will find a solution!",
@@ -5472,19 +5476,19 @@ This tech is <em>repeatable</em> and can be researched multiple times.
 40,Recharge,充電
 41,Select a power cable or another vehicle to recharge the battery.,選擇電線或其它車輛為電池充電。
 42,Cancel recharge.,取消充電
-50,Status and current task of this vehicle.,
-25,Anomaly Scanning,
-52,Progress<right><percent(ScanAnomalyProgress)>,
-53,Malfunction,
-54,This vehicle has malfunctioned. It has to be repaired by Drones.,
-55,Analyzing an Anomaly,
-56,On a transport route,
-58,<red>This unit has been destroyed. Salvage for materials.<red>,
-59,Disembarking,
-60,Unloading cargo at target coordinates,
-61,Transfering power between vehicles,
-62,Moving to avoid obstruction,
-64,Loading resources at target coordinates,
+50,Status and current task of this vehicle.,該車輛現狀和當前任務。
+25,Anomaly Scanning,异常掃描
+52,Progress<right><percent(ScanAnomalyProgress)>,推進<right><percent(ScanAnomalyProgress)>
+53,Malfunction,故障
+54,This vehicle has malfunctioned. It has to be repaired by Drones.,車輛發生故障。需要派遣無人機進行維修。
+55,Analyzing an Anomaly,分析异常
+56,On a transport route,在運輸路線上
+58,<red>This unit has been destroyed. Salvage for materials.<red>,<red>该组织已经被摧毁。请求救援物资<red>
+59,Disembarking,離艙
+60,Unloading cargo at target coordinates,目標坐標下卸載貨物
+61,Transfering power between vehicles,运输能源传送
+62,Moving to avoid obstruction,移動以避免阻塞
+64,Loading resources at target coordinates,在目標座標上装載資源
 7610,Waiting for repairs,
 8028,Undergoing repairs,
 66,Out of power,
