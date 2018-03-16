@@ -5463,10 +5463,10 @@ This tech is <em>repeatable</em> and can be researched multiple times.
 35,"Battery is being drained by <em><percent(value,battery_max)> per hour</em>",
 37,Battery is <em>on standby</em>,
 8456,Depleted Battery!,
-7322,The Rover will be salvaged in <em><countdown></em> sec.,
-7323,Low battery - Drones will not be recharged.,
-7324,Low battery,
-7325,Empty battery,
+7322,The Rover will be salvaged in <em><countdown></em> sec.,漂泊者將在<em><countdown></em>秒內被搶修。
+7323,Low battery - Drones will not be recharged.,電量不足，無人機将無法充電。
+7324,Low battery,電量不足
+7325,Empty battery,電池沒電
 7601,Battery,電池
 7602,"Vehicles can recharge their batteries from active Power grids. Vehicles are also able to recharge each other, equalizing the Power in their batteries.<newline><newline>Power<right><percent(BatteryPerc)><newline><left><battery_ui_str>",
 40,Recharge,充電
