@@ -5463,10 +5463,10 @@ This tech is <em>repeatable</em> and can be researched multiple times.
 35,"Battery is being drained by <em><percent(value,battery_max)> per hour</em>",
 37,Battery is <em>on standby</em>,
 8456,Depleted Battery!,
-7322,The Rover will be salvaged in <em><countdown></em> sec.,
-7323,Low battery - Drones will not be recharged.,
-7324,Low battery,
-7325,Empty battery,
+7322,The Rover will be salvaged in <em><countdown></em> sec.,漂泊者將在<em><countdown></em>秒內被搶修。
+7323,Low battery - Drones will not be recharged.,電量不足，無人機将無法充電。
+7324,Low battery,電量不足
+7325,Empty battery,電池沒電
 7601,Battery,電池
 7602,"Vehicles can recharge their batteries from active Power grids. Vehicles are also able to recharge each other, equalizing the Power in their batteries.<newline><newline>Power<right><percent(BatteryPerc)><newline><left><battery_ui_str>",
 40,Recharge,充電
@@ -10334,38 +10334,38 @@ Current status: Exports are <em>forbidden</em>.",
 7857,Rare Traits,
 779865575637,<RareTraits>,
 946079411041,<UISectionAirGridRollover>,
-536,Oxygen grid,
-541,Hourly production<right><air(current_production)>,
-327,Total demand<right><air(consumption)>,
-328,Stored Oxygen<right><air(current_storage)>,
+536,Oxygen grid,氧氣網格
+541,Hourly production<right><air(current_production)>,每小時生產<right><air(current_production)>
+327,Total demand<right><air(consumption)>,需求總量<right><air(consumption)>
+328,Stored Oxygen<right><air(current_storage)>,儲氧量<right><air(current_storage)>
 145812907055,<UISectionAirProductionRollover>,
-486,Hourly production<right><air(AirProduction)>,
-520,Oxygen storage parameters and status. Oxygen is consumed only when demanded.,
-186451833281,Oxygen Storage,
-521,Stored Oxygen<right><air(StoredAir)>,
-522,Capacity<right><air(air_capacity)>,
-7783,Max output<right><air(max_air_discharge)>,
+486,Hourly production<right><air(AirProduction)>,每小時生產<right><air(AirProduction)>
+520,Oxygen storage parameters and status. Oxygen is consumed only when demanded.,儲氧參數和狀態。只有需要時才會消耗氧氣。
+186451833281,Oxygen Storage,儲氧量
+521,Stored Oxygen<right><air(StoredAir)>,儲存氧<right><air(StoredAir)>
+522,Capacity<right><air(air_capacity)>,容量
+7783,Max output<right><air(max_air_discharge)>,最大輸出<right><air(max_air_discharge)>
 331402867293,<CheatsRollover>,
-27,Cheats,
-8543,Buildings in cold environemnt will freeze if left without power.<newline><newline>Freezing progress<right><percent(FreezeProgress)><newline><left>Status<right><FreezeStatus>,
-626,All resources have to be delivered to the site. Construction is performed by Drones.,
-394,Construction progress,
+27,Cheats,金手指
+8543,Buildings in cold environemnt will freeze if left without power.<newline><newline>Freezing progress<right><percent(FreezeProgress)><newline><left>Status<right><FreezeStatus>,在严寒的環境，如果沒有提供電力的建築物將凍結。<newline><newline>凍結進度<right><percent(FreezeProgress)><newline><left>現時<right><FreezeStatus>
+626,All resources have to be delivered to the site. Construction is performed by Drones.,所有資源必須存放到基地。將會由無人機執行建造各種建築物。
+394,Construction progress,施工進度
 796206581420,<IPStatus>,
 792334033908,<UISectionConsumptionRollover>,
-425713963756,Consumption,
-369967558050,<left_click> Select new crop<newline><em>Ctrl + <left_click> on crop</em> Select in all <display_name_pl>,
+425713963756,Consumption,消費
+369967558050,<left_click> Select new crop<newline><em>Ctrl + <left_click> on crop</em> Select in all <display_name_pl>,選取新作物<newline><em>Ctrl + <left_click> 對作物</em> 並選取所有 <display_name_pl>
 764818637741,<ButtonA> Select new crop<newline><em><ButtonX> on crop</em> Select in all <display_name_pl>,
 495262708189,Select new crop,
 7414,<warn><prod>.<frac><icon>,
 911264109357,"Stored <ui_current_crop_resource_type_display_name><right><resource(amount_stored, max_storage, ui_current_crop_resource_type)>",
 679970579843,Soil Quality<right><UISoilQuality>%,
 363,"Filter Colonists in the Dome by desired or undesired traits. Colonists that do not match the filter will try to resettle in another Dome. If a Quarantine was set for the Dome, this action will remove it.",
-362,Filter by Traits,
-364,Open/Quarantined,
-7660,Current status: <em>Accepts new Colonists</em>,
+362,Filter by Traits,特徵篩選
+364,Open/Quarantined,打開/隔離
+7660,Current status: <em>Accepts new Colonists</em>,現狀: <em>接收新居民</em>
 7661,<left_click> Quarantine <newline><em>Ctrl + <left_click></em> Quarantine all Domes,
 7662,<ButtonA> Quarantine <newline><ButtonX> Quarantine all Domes,
-365,Current status: <em>Quarantined</em>,
+365,Current status: <em>Quarantined</em>,現狀: <em>隔離</em>
 7663,<left_click> Open <newline><em>Ctrl + <left_click></em> Open all Domes,
 7664,<ButtonA> Open <newline><ButtonX> Open all Domes,
 121681643085,<UISectionCitizensRollover>,
@@ -10375,12 +10375,12 @@ Current status: Exports are <em>forbidden</em>.",
 244389183434,The average <em>Health</em> of all Colonists living in this Dome.,
 455859065748,Average Health <Stat(AverageHealth)>,
 607491882958,The average <em>Sanity</em> of all Colonists living in this Dome.,
-942703008133,Average Sanity <Stat(AverageSanity)>,
+942703008133,Average Sanity <Stat(AverageSanity)>,人均健康值 <Stat(AverageSanity)>
 327454642679,<ComfortRollover>,
-577070564514,Average Comfort <Stat(AverageComfort)>,
+577070564514,Average Comfort <Stat(AverageComfort)>,人均舒適值 <Stat(AverageComfort)>
 856271865233,The average <em>Morale</em> of all Colonists living in this Dome.,
-765210150801,Average Morale <Stat(AverageMorale)>,
-241499798174,The condition of buildings deteriorates over time. Martian dust and disasters contribute to deterioration of outside buildings. Deteriorated buildings will need to be serviced by a Drone and supplied with their required maintenance resource or they will malfunction.<newline><newline>Current deterioration<right><percent(MaintenanceProgress)><newline><left>Last serviced<right><LastMaintenance>,
+765210150801,Average Morale <Stat(AverageMorale)>,人均精神值 <Stat(AverageMorale)>
+241499798174,The condition of buildings deteriorates over time. Martian dust and disasters contribute to deterioration of outside buildings. Deteriorated buildings will need to be serviced by a Drone and supplied with their required maintenance resource or they will malfunction.<newline><newline>Current deterioration<right><percent(MaintenanceProgress)><newline><left>Last serviced<right><LastMaintenance>,随着时间的推移，建筑物在火星的恶劣环境和未知的灾难下将会出现破损，破损后的建筑物需要使用无人机来修复。<newline><newline>Current deterioration<right><percent(MaintenanceProgress)><newline><left> 剩餘時間<right><LastMaintenance>
 619281504128,Maintenance,
 601912665358,"<resource(maintenance_resource_amount, maintenance_resource_type)>",
 7878,A drone is on the way to repair this building.,
@@ -10400,37 +10400,37 @@ Current status: Exports are <em>forbidden</em>.",
 405,Proximity to Black Cubes,
 440,<em><percent(black_cube_interaction_perc_for_ui)></em> improved Power production,
 442,Producing <em><power(EletricityUnderproduction)></em> less than optimal output due to Dust Storm,
-443,Not producing Power during the night,
-462,Power storage parameters and status.,
+443,Not producing Power during the night,夜晚將无法產生電能
+462,Power storage parameters and status.,电量存儲參數和狀態。
 461,Power Storage,
 463,<ElectricityUIMode>,
 464,Stored Power<right><power(StoredPower)>,
 465,Capacity<right><power(capacity)>,
 7784,Max output<right><power(max_electricity_discharge)>,
-368,Open the Research screen to select a new Technology to be researched,
-367,Research technology,
-765045268446,Contributes to the currently selected research project.<newline><newline>Lifetime research<right><research(research_points_lifetime)>,
-308,Research Project <percent(ResearchProgress)>,
+368,Open the Research screen to select a new Technology to be researched,打開研究界面，選擇一種新技術進行研究
+367,Research technology,研究科技
+765045268446,Contributes to the currently selected research project.<newline><newline>Lifetime research<right><research(research_points_lifetime)>,当前选定的研究项目.<newline><newline>寿命研究<right><research(research_points_lifetime)>
+308,Research Project <percent(ResearchProgress)>,研究專案<percent(ResearchProgress)>
 452635643808,<UIResearchProject>,
-445070088246,Daily research<right><research(EstimatedDailyProduction)>,
-8017,Collaboration loss<right><research(EstimatedDailyLoss)>,
-327961439148,Colonists live and rest in Residential Buildings. Their Health and Sanity will deteriorate if they are homeless.,
-702480492408,Residents<right><UIResidentsCount> / <colonist(UICapacity)>,
-3976,Free slot,
-7981,Reserved slot,
-4176,Closed slot,
-4174,A Colonist living in this building.<newline><newline>Specialization: <em><Specialization></em>,
-4175,A free Residential slot.,
-7982,This slot is reserved for a colonist planning to move in from another Dome.,
-4177,This slot is closed. Colonists will never occupy it.,
-424588493338,Comfort of residents<right><em><Stat(service_comfort)></em>,
+445070088246,Daily research<right><research(EstimatedDailyProduction)>,日常研究 <right><research(EstimatedDailyProduction)>
+8017,Collaboration loss<right><research(EstimatedDailyLoss)>,合作消耗 <right><research(EstimatedDailyLoss)>
+327961439148,Colonists live and rest in Residential Buildings. Their Health and Sanity will deteriorate if they are homeless.,需要保證有充足的住宅區提供居民休息，如果無家可歸的居民，他們的健康將會受到影響。
+702480492408,Residents<right><UIResidentsCount> / <colonist(UICapacity)>,居民<right><UIResidentsCount> / <colonist(UICapacity)>
+3976,Free slot,自由插槽
+7981,Reserved slot,預定插槽
+4176,Closed slot,关闭插槽
+4174,A Colonist living in this building.<newline><newline>Specialization: <em><Specialization></em>,一个居民居住在这房子。<newline><newline>專業: <em><Specialization></em>
+4175,A free Residential slot.,免費住宅區。
+7982,This slot is reserved for a colonist planning to move in from another Dome.,此插槽是为了连接另一个家园而保留。
+4177,This slot is closed. Colonists will never occupy it.,此插槽已關閉。居民将无法使用。
+424588493338,Comfort of residents<right><em><Stat(service_comfort)></em>,舒適的居民<right><em><Stat(service_comfort)></em>
 241057577251,<UISectionResourceProducerRollover>,
-466,"Daily production (predicted)<right><resource(PredictedDailyProduction, GetResourceProduced)>",
-478,"Stored <resource(GetResourceProduced)><right><resource(GetAmountStored,max_storage,GetResourceProduced)>",
+466,"Daily production (predicted)<right><resource(PredictedDailyProduction, GetResourceProduced)>","日常产量 (预计)<right><resource(PredictedDailyProduction, GetResourceProduced)>"
+478,"Stored <resource(GetResourceProduced)><right><resource(GetAmountStored,max_storage,GetResourceProduced)>",“存儲 <resource(GetResourceProduced)><right><resource(GetAmountStored,max_storage,GetResourceProduced)>”
 462868881410,"Determines the radius in which the Drones harvest resources or construct, service and clean buildings.<newline><newline>Service range<right><SelectionRadiusScale> hexes<newline><left>Construction sites<right><count(constructions)>",
-253409130526,<LB> / <RB>    decrease / increase service radius,
-994862568830,Service area,
-887447102904,<ButtonA> Customize storage permissions,
+253409130526,<LB> / <RB>    decrease / increase service radius,<LB> / <RB> 减少 / 增加服務半徑
+994862568830,Service area,服務區
+887447102904,<ButtonA> Customize storage permissions,<ButtonA> 定制存儲許可權
 494,Basic Resources,
 497,"<resource('Concrete' )><right><concrete(Stored_Concrete, MaxAmount_Concrete)>",
 498,"<resource('Food' )><right><food(Stored_Food, MaxAmount_Food)>",
